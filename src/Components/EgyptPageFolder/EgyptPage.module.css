@@ -1,0 +1,21 @@
+.mainColor{
+    color: #EC722B !important;
+}
+.greenColor{
+    color: #377F33 !important;
+}
+
+.reccomendedBtnEdit{
+    background-color:#EFBC83 !important;
+    font-weight: 900 !important;
+    border-radius: 20px !important;
+    color: black !important; 
+}
+.reccomendedBtnEdit:hover{
+    background-color: #EC722B !important;
+}
+
+.orangeLine{
+    border: #EC722B solid 1px;
+    width: 100px;
+}

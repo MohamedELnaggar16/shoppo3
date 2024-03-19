@@ -1,0 +1,146 @@
+.mainColor{
+    color: #EC722B !important;
+}
+.subNavColor{
+    color: #377F33 !important;
+}
+.subNavBgColorAndFram{
+    background-color: #FAEFE2;
+    border-radius: 50px;
+}
+.trendBtnEdit{
+    background-color:#F1CAB1 !important;
+    font-weight: 900 !important;
+    border-radius: 20px !important;
+  
+}
+.trendBtnEdit:hover{
+    background-color: #EC722B !important;
+    transition: all 0.5s;
+}
+.bgPosition{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.position{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.trendPageBg{
+    background-image: url(../Images/best.png);
+    min-height: 75vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ////////////////////// */
+.flexcontainer {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    width: 50%;
+    height: 100%;
+}
+.flexcontainer2 {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.flexitemcont{
+
+    width: 50%;
+    height: 50%;
+    margin: 0px;
+}
+.flexitem1 {
+
+    width: 100%;
+    margin: 0px;
+}
+.flexitem2 {
+  
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+.flexitem3 {
+
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+/* ///////////////// */
+
+.trendImgEdit1{
+  width: 550px;
+  height: 500px;
+}
+.trendImgEdit2{
+    width: 550px;
+    height: 250px;
+  }
+
+  .PositionForTrendImgs{
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: translate(0% , -100%);
+    width: 550px;
+    text-align: center;
+ 
+}
+.PositionForTrendImgs2{
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: translate(0% , -100%);
+    width: 550px;
+    text-align: center;
+ 
+}
+@media only screen and (max-width: 600px) {
+
+    .trendImgEdit1{
+        width: 100%;
+        height: 100%;
+      }
+      .trendImgEdit2{
+        width: 100%;
+        height: 100%;
+       
+        }
+      
+
+    .PositionForTrendImgs{
+        position: absolute;
+        top: 100%;
+        left: 0px;
+        background-color: rgba(0, 0, 0, 0.5);
+        transform: translate(0% , -100%);
+        width: 100%;
+        text-align: center;
+     
+    }
+    .PositionForTrendImgs2{
+        position: absolute;
+        top: 100%;
+        left: 0px;
+        background-color: rgba(0, 0, 0, 0.5);
+        transform: translate(0% , -100%);
+        width: 100%;
+        text-align: center;
+     
+    }
+
+}
+

@@ -1,0 +1,27 @@
+.greenColor{
+    color: #377F33 !important;
+}
+.aboutPageBg{
+    background-image: url(../Images/banner.jpg);
+    min-height: 75vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aboutBtnEdit{
+    background-color: #EC722B !important;
+    color: black !important;
+}
+.aboutBtnEdit:hover{
+    background-color:#EFBC83 !important;
+}
+
+.aboutIconsPosition{
+    border: gray solid 1px;
+    border-radius: 10px;
+}
+.iconsBorder{
+    border: #EC722B 1px solid;
+    background-color: #EC722B;
+    border-radius: 10px;
+}

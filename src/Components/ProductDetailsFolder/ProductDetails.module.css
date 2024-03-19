@@ -1,0 +1,88 @@
+.productDetailsBg{
+    background-color: #F3F3F3;
+    margin-top: 100px;
+    
+}
+.productDetailsBtnEdit1{
+    background-color: #EC722B !important;
+    color: black !important;
+    border-radius: 20px !important;
+}
+
+.productDetailsBtnEdit2{
+    border: #EC722B 2px solid!important;
+    color: black !important;
+    border-radius: 20px !important;
+}
+
+.productDetailsBtnEdit2:hover{
+    border: white 2px solid!important;
+}
+.mainColor{
+    color: #EC722B !important;
+}
+.colorChoice{
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    border-radius: 10px;
+    border: 1px black solid;
+}
+.colorChoice2{
+    background-color: white;
+    height: 15px;
+    width: 15px;
+    border-radius: 10px;
+    border: 1px black solid;
+}
+.colorChoice3{
+    background-color: grey;
+    height: 15px;
+    width: 15px;
+    border-radius: 10px;
+    border: 1px black solid;
+}
+.offerBorder{
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgProductHover:hover{
+    cursor: pointer;
+}
+.minusBtn{
+   border: grey 2px solid;
+   border-radius: 25px;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+.plusBtn{
+    border: grey 2px solid;
+    border-radius: 25px;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+ }
+.inputBtn{
+    width: 50px;
+    border: none;
+    color: gray ;
+    font-weight: bolder;
+    
+}
+.deleteBtn{
+    color: #EC722B !important;
+  }
+
+.deleteBtn:hover{
+     cursor: pointer;
+  }
+@media only screen and (max-width: 600px) {
+
+.offerBorder{
+    border-radius: 0px;
+    display: block;
+}
+}
+

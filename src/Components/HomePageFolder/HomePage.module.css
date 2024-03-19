@@ -1,0 +1,228 @@
+.mainColor{
+    color: #EC722B !important;
+}
+.greenColor{
+    color: #377F33 !important;
+}
+
+.homeBtnEdit{
+    background-color:#F1F1F1 !important;
+    font-weight: 900 !important;
+    border-radius: 20px !important;
+    color: #EC722B !important; 
+}
+.subNavColor{
+    color: #377F33 !important;
+}
+.subNavBgColorAndFram{
+    background-color: #FAEFE2;
+    border-radius: 50px;
+}
+.homeSearchEdit{
+    border: #EC722B 1px solid !important;
+    text-align: center;
+}
+.BG{
+    background-color: #F6F0E9;
+}
+.homeBtnEdit2{
+    background-color:rgba(0, 0, 0, 0.25)!important;
+    font-weight: 900 !important;
+    border-radius: 20px !important;
+    color: white !important; 
+   
+}
+.homeBtnEdit2:hover{
+    background-color: #EC722B !important;
+    transition: all 0.5s;
+}
+.imgRoundedEdit{
+     border-top-right-radius: 25%;
+     border-bottom-left-radius: 25%;
+     transition: all 0.5s;
+}
+.imgRoundedEdit:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.leftLine::before{
+   content: "";
+   height: 3px;
+   width : 50%;
+   background-color: #1C561A;
+   position: absolute;
+   top: 50%;
+   left: 0px;
+   z-index: -2;
+    
+}
+.leftLine::after{
+   content: "";
+   height: 3px;
+   width : 50%;
+   background-color: #1C561A;
+   position: absolute;
+   top: 50%;
+   right: 0px;
+   z-index: -2;
+    
+}
+.textBetTwoLines{
+    background-color: white;
+    color: #1C561A;
+    
+}
+
+.PositionForTrendImgs{
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: translate(0% , -100%);
+    width: 100%;
+    text-align: center;
+ 
+}
+.PositionForTrendImgs2{
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: translate(0% , -100%);
+    width: 100%;
+    text-align: center;
+ 
+}
+.reccomendedBtnEdit{
+    background-color:#EFBC83 !important;
+    font-weight: 900 !important;
+    border-radius: 20px !important;
+    color: black !important; 
+}
+.reccomendedBtnEdit:hover{
+    background-color: #EC722B !important;
+}
+.text2{
+    background-color: white;
+    color: #1C561A;
+    border-radius: 10px;
+}
+
+
+
+/* .flexcontainer {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+.flexcontainer2 {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.flexitemcont{
+
+    width: 50%;
+    height: 50%;
+    margin: 0px;
+}
+.flexitem1 {
+
+    width: 100%;
+    margin: 0px;
+}
+.flexitem2 {
+  
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+.flexitem3 {
+
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+} */
+
+.homePageBg{
+    background-image: url(../Images/cover.png);
+    min-height: 75vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.trendImgEdit1{
+    width: 550px;
+    height: 500px;
+  }
+  .trendImgEdit2{
+      width: 550px;
+      height: 250px;
+    }
+  
+    .PositionForTopSeller1{
+      position: absolute;
+      top: 100%;
+      left: 0px;
+      background-color: rgba(0, 0, 0, 0.5);
+      transform: translate(0% , -100%);
+      width: 550px;
+      text-align: center;
+   
+  }
+  .PositionForTopSeller2{
+      position: absolute;
+      top: 100%;
+      left: 0px;
+      background-color: rgba(0, 0, 0, 0.5);
+      transform: translate(0% , -100%);
+      width: 550px;
+      text-align: center;
+   
+  }
+
+@media only screen and (max-width: 600px) {
+
+    .trendImgEdit1{
+        width: 100%;
+        height: 100%;
+      }
+      .trendImgEdit2{
+        width: 100%;
+        height: 100%;
+       
+        }
+      
+
+    .PositionForTopSeller1{
+        position: absolute;
+        top: 100%;
+        left: 0px;
+        background-color: rgba(0, 0, 0, 0.5);
+        transform: translate(0% , -100%);
+        width: 100%;
+        text-align: center;
+     
+    }
+    .PositionForTopSeller2{
+        position: absolute;
+        top: 100%;
+        left: 0px;
+        background-color: rgba(0, 0, 0, 0.5);
+        transform: translate(0% , -100%);
+        width: 100%;
+        text-align: center;
+     
+    }
+
+}
+
+

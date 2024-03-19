@@ -1,0 +1,17 @@
+.navBgColor{
+    background-color: rgba(255, 255, 255, 0.75) !important;
+   
+    
+}
+.hoverColor:hover{
+    color: #EC722B !important;
+    transition: all 0.5s;
+}
+.cartNotification{
+    border: #EC722B 1px solid ;
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color:#EC722B;
+    color: white;
+}

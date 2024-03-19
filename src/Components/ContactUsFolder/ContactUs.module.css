@@ -1,0 +1,31 @@
+.contactUSPageBg{
+    background-image: url(../Images/banner2.png);
+    min-height: 75vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* .contactUsBgLayer{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+} */
+.contactUsBtnEdit{
+    background-color:#EFBC83 !important;
+    font-weight: 900 !important;
+    border-radius: 20px !important;
+    color: black !important; 
+}
+.contactUsIconsPosition{
+    border: gray solid 1px;
+    border-radius: 10px;
+}
+.contactUsBtnEdit:hover{
+    background-color: #EC722B !important;
+}
+.iconsBorder{
+    border: #EC722B 1px solid;
+    background-color: #EC722B;
+    border-radius: 10px;
+}
